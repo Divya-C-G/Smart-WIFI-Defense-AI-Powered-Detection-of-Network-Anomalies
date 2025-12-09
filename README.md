@@ -1,17 +1,17 @@
 # Wi-Fi Guardian 🛡
 
-**Wi-Fi Guardian** is a real-time Wi-Fi network monitoring and anomaly detection tool built with Streamlit. It allows you to monitor network traffic, visualize statistics, detect anomalies, and generate PDF reports for analysis.
+Wi-Fi Guardian is a real-time Wi-Fi network monitoring and anomaly detection tool built with Streamlit. It allows you to monitor network traffic, visualize statistics, detect anomalies, and generate PDF reports for analysis.
 
 ---
 
 ## 🚀 Features
 
-- **Real-Time Monitoring**: Monitor per-interface network traffic (bytes sent/received) in real time.  
-- **Protocol Analysis**: Identify protocol distribution (TCP, UDP, ICMP, etc.).  
-- **Anomaly Detection**: Detect unusual traffic patterns using Isolation Forest.  
-- **Data Visualization**: 2D and 3D plots for network traffic over time.  
-- **PDF Report Generation**: Export statistics and anomalies as a PDF report.  
-- **Simple Navigation**: Use sidebar buttons to switch between Monitor, Visualization, Statistics, and Download.
+- **Real-Time Monitoring:** Monitor per-interface network traffic (bytes sent/received) in real time.  
+- **Protocol Analysis:** Identify protocol distribution (TCP, UDP, ICMP, etc.).  
+- **Anomaly Detection:** Detect unusual traffic patterns using Isolation Forest.  
+- **Data Visualization:** 2D and 3D plots for network traffic over time.  
+- **PDF Report Generation:** Export statistics and anomalies as a PDF report.  
+- **Simple Navigation:** Use sidebar buttons to switch between Monitor, Visualization, Statistics, and Download.  
 
 ---
 
@@ -38,40 +38,32 @@ MajorProject/
 ├── ui_utils.py # UI helpers and quotes
 
 
+
 ---
 
 ## 💻 Installation
 
-1. **Clone the repository**
+### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/<your-username>/MajorProject.git
 cd MajorProject
 
-Create a virtual environment
-
+### 2. Create a virtual environment
 python -m venv venv
 
-
-Activate the virtual environment
-
+###3. Activate the virtual environment
 Windows:
-
 venv\Scripts\activate
 
-
 Mac/Linux:
-
 source venv/bin/activate
 
-
-Install dependencies
-
+### 4. Install dependencies
 pip install -r requirements.txt
 
 🏃 Run the App
 streamlit run app.py
-
 
 Open the Local URL (e.g., http://localhost:8501) in your browser.
 
@@ -98,15 +90,3 @@ For large datasets, 3D plotting may be slower.
 Python 3.11+
 
 See requirements.txt for full dependencies
-
-📌 Contributing
-
-Fork the repository
-
-Create a branch: git checkout -b feature/your-feature
-
-Make changes and commit: git commit -m "Add new feature"
-
-Push to branch: git push origin feature/your-feature
-
-Open a Pull Request
